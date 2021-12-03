@@ -443,7 +443,7 @@ sbafin_allowas_in
 
 sbafin_default_originate
 :
-  DEFAULT_ORIGINATE NEWLINE
+  DEFAULT_ORIGINATE (ROUTE_MAP route_map_name)? NEWLINE
 ;
 
 sbafin_next_hop_self
